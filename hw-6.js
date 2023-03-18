@@ -22,16 +22,21 @@
 
 // Визначення типу значення, оператор typeof
 
-// const productName = 'Mango';
+const productName = 'Mango';
 
-// const pricePerItem = 150;
+const pricePerItem = 150;
 
-// const isOnSale = false;
+const isOnSale = false;
 
-// const error = null;
+const error = null;
 
-// let quantity;
+let quantity;
 
+console.log(typeof productName)
+console.log(typeof pricePerItem)
+console.log(typeof isOnSale)
+console.log(typeof error)
+console.log(typeof quantity)
 // .....................
 
 // Задача №3
@@ -42,12 +47,42 @@
 
 // років і мені подобається < хоббі >, де дані з < ..... > - змінні вставлені в строку.
 
-// const name = '';
+const name = 'Artur';
 
-// const age = ;
+const age = 15 ;
 
-// const hobby = '';
+const hobby = 'football';
 
-// const message = ;
+const message = ;
 
-// console.log(message);
+console.log(message);
+
+
+
+let cost;
+const subscription = "premium";
+
+// if (subscription === "free") {
+//  cost = 0;
+// } else if (subscription === "pro") {
+//  cost = 100;
+// } else if (subscription === "premium") {
+//  cost = 500;
+// } else {
+//  console.log("Invalid subscription type");
+// }
+switch (subscription) {
+    case "free":
+        cost = 0;
+         break;
+    case "pro":
+        cost = 100;
+        break;
+    case "premium";
+        cost = 500:
+        break;
+    default:
+        console.log(Invalid subscription type);
+        break;
+}
+console.log(cost); // 500
